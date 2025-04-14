@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Firework Launcher 🎆</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎇 Online බඹර චක්කර 🎇</h1>
+  <p>If there is an issue just reload the page</p>
+  <div class="btn-group">
+    <button id="spinBtn">✨ Spin</button>
+    <button id="backBtn"><a href="index.html" id="backBtn">🎇අහස්කූරු </a></button>
+  
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="fireworks.js"></script>
+  
+  
+  <footer>
+    SULA &copy; <span id="currentYear"></span>
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
